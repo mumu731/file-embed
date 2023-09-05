@@ -11,7 +11,7 @@ from langchain.embeddings import CohereEmbeddings
 
 
 # cohere密钥
-cohere_api_key = os.getenv('COHERE_API_KEY', "7bA7RdcRy740FywpC1ecXk8QagS2xE8rCoidDH18")
+cohere_api_key = os.getenv('COHERE_API_KEY', "")
 
 app = Flask(__name__)
 
