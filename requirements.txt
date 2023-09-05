@@ -6,3 +6,4 @@ tiktoken==0.4.0
 cohere==4.22
 cachetools==5.3.1
 fastapi==0.103.1
+python-multipart==0.0.6
