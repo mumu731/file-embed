@@ -1,5 +1,5 @@
 # Use the official Python image as the base image
-FROM python:3.9
+FROM python:3.10.0-slim-buster 
 
 
 # Create a working directory for the app
