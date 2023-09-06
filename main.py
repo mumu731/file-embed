@@ -9,7 +9,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import CohereEmbeddings
 
 # Cohere密钥
-cohere_api_key = os.getenv('COHERE_API_KEY', "123456")
+cohere_api_key = os.getenv('COHERE_API_KEY', "")
 
 app = FastAPI()
 
